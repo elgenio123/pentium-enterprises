@@ -13,7 +13,7 @@ const center = {
 
 const GoogleMapComponent: React.FC = () => {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: 'AIzaSyDUI0eyTdkUJKl_MTpwG4C9JgjqwQV8lMc', // Replace with your API key
+    googleMapsApiKey: import.meta.env.API_KEY, // Replace with your API key
   });
 
   if (loadError) return <div>Error loading maps</div>;
