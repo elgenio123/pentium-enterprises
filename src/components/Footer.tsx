@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="col-span-1 md:col-span-2">
-            <span className="text-2xl font-bold text-white">StoneQuarry</span>
+            <span className="text-2xl font-bold text-white">PentiumEnterprises</span>
             <p className="mt-4 text-gray-300">
               Votre partenaire de confiance en matériaux de construction. Produits de qualité, service fiable et pratiques durables.
             </p>
@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
         <div className="pt-8 mt-8 border-t border-gray-700">
           <p className="text-base text-center text-gray-400">
-            © {new Date().getFullYear()} StoneQuarry. Tous droits réservés.
+            © {new Date().getFullYear()} PentiumEnterprises. Tous droits réservés.
           </p>
         </div>
       </div>

@@ -44,7 +44,7 @@ const ContactCTA = () => {
                   <dt><span className="sr-only">Adresse</span></dt>
                   <dd className="flex text-base text-amber-50">
                     <MapPin className="flex-shrink-0 w-6 h-6 text-amber-200" aria-hidden="true" />
-                    <span className="ml-3">123 Ndokoti<br />Douala, Cameroun</span>
+                    <span className="ml-3">237 Ndokoti<br />Douala, Cameroun</span>
                   </dd>
                 </dl>
               </div>

@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Adresse",
-    details: ["123 Ndokoti", "Douala, Cameroun"],
+    details: ["237 Ndokoti", "Douala, Cameroun"],
     description: "Venez nous rencontrer",
   },
   {
