@@ -15,7 +15,7 @@ const Contact = lazy(() => import("./pages/Contact"));
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-white">
+      <div className="bg-white ">
         <Navbar />
         <main className="pt-16">
           <Routes>
