@@ -1,6 +1,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
+import LoginModal from "../components/modals/LoginModal";
 
 const products = {
   "gravier-de-construction": {
@@ -114,8 +115,8 @@ const products = {
     applications: "Béton, Routes, Fondations, Drainage",
     images:[
       "https://plus.unsplash.com/premium_photo-1675543163354-e4dc1f541330?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://img.freepik.com/photos-gratuite/epice-arachides_1368-5482.jpg?t=st=1739865994~exp=1739869594~hmac=d8ecc6ab9df7036db72221e35261597b3a0613dd42c2112cd434692eadb9cc0c&w=740",
-      "https://img.freepik.com/photos-gratuite/sol-recouvert-petites-pierres-sous-lumiere-du-soleil-arriere-plan-flou_181624-10140.jpg?t=st=1739866039~exp=1739869639~hmac=1f3e4db26d0e7e1ae0e3a760a230e40e5e0faa660e0e531585fe7506010a7607&w=740",
+      "/images/concasses2.jpg",
+      "/images/concasse.jpg",
       "https://img.freepik.com/photos-premium/nouvelle-texture-arriere-plan-route-asphaltee_4043-637.jpg?w=740",
     ],
       
@@ -215,6 +216,7 @@ const ProductDetail = () => {
   const { id } = useParams();
   const product = products[id as keyof typeof products];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
 
   if (!product) {
     return (
@@ -242,6 +244,13 @@ const ProductDetail = () => {
   const selectImage = (index: number) => {
     setCurrentImageIndex(index);
   };
+
+  const handleLogin = (data: { email: string; password: string }) => {
+    console.log('Login data:', data);
+    // Handle login logic here
+    setIsLoginModalOpen(false);
+  };
+
 
   return (
     <div className="bg-white py-24">
@@ -331,13 +340,18 @@ const ProductDetail = () => {
             ))}
 
             <div className="mt-12">
-              <button className="btn">
+              <button className="btn" onClick={() => setIsLoginModalOpen(true)} >
                 Demander un devis
               </button>
             </div>
           </div>
         </div>
       </div>
+      <LoginModal 
+        isOpen={isLoginModalOpen}
+        onClose={() => setIsLoginModalOpen(false)}
+        onLogin={handleLogin}
+      />
     </div>
   );
 };
