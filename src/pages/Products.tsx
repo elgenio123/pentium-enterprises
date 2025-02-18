@@ -34,6 +34,24 @@ const products = [
     applications: 'Routes, Parkings, Plateformes',
     image: 'https://plus.unsplash.com/premium_photo-1675543163354-e4dc1f541330?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
+  {
+    id: 'terre',
+    name: 'Terre Végétale',
+    description: 'Terre naturelle de qualité supérieure pour aménagements paysagers et cultures',
+    specifications: 'Composition: Terre enrichie, Densité: ~1200kg/m³',
+    applications: 'Jardinage, Pelouses, Cultures',
+    image: 'https://compost-ain.fr/wp-content/uploads/2023/07/terreau-vrac-800x600.jpg'
+  },
+  
+  {
+    id: 'pozzoulane',
+    name: 'Pouzzolane',
+    description: 'Roche volcanique poreuse idéale pour le drainage et la décoration',
+    specifications: 'Taille: 2-20mm, Densité: ~900kg/m³',
+    applications: 'Drainage, Filtres, Béton allégé, Décoration paysagère',
+    image: 'https://agrivalor.eu/wp-content/uploads/2018/02/produit-pouzzolane-7-15-1-600x450.jpg'
+  }
+  
 ];
 
 const Products = () => {

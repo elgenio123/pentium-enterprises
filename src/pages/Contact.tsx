@@ -11,7 +11,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    details: ["billytegetsop@gmail.com", "geniekamaha@gmail.com"],
+    details: ["billyteguetsop@gmail.com", "geniekamaha@gmail.com"],
     description: "Nous répondons sous 24h",
   },
   {

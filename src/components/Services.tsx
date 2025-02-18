@@ -41,7 +41,7 @@ const Services = () => {
                 <h3 className="text-2xl font-bold text-gray-900">{service.title}</h3>
                 <p className="mt-3 text-lg text-gray-500">{service.description}</p>
                 <Link
-                  to={`/services/${service.title.toLowerCase().replace(/ /g, '-')}`}
+                  to={`/services/`}
                   className="inline-flex items-center mt-4 text-amber-600 hover:text-amber-500"
                 >
                   En savoir plus →

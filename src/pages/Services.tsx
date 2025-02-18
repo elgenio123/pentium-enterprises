@@ -1,5 +1,5 @@
 
-import { Truck, Package, Ruler, Clock, Phone, Shield } from 'lucide-react';
+import { Truck, Package, Ruler, Clock, Phone, Shield, Shovel } from 'lucide-react';
 
 const services = [
   {
@@ -17,7 +17,7 @@ const services = [
   {
     icon: Truck,
     title: 'Livraison',
-    image: "https://www.materiauxdubos.com/public/img/medium/445c06ec8c44ff1aafe78425e44a9b37.jpg",
+    image: "/images/livraison.jpg",
     description: 'Service de livraison fiable et ponctuel pour tous vos besoins en matériaux.',
     features: [
       'Livraison rapide',
@@ -37,7 +37,19 @@ const services = [
       'Support technique',
       'Documentation technique'
     ]
-  }
+  },
+  {
+    icon: Shovel,  
+    title: 'Terrassement',
+    image: "/images/terrassement.png",
+    description: 'Travaux de terrassement pour assurer des bases solides à vos projets.',
+    features: [
+      'Nivellement du terrain',
+      'Excavation et remblaiement',
+      'Gestion des sols',
+      'Préparation pour construction'
+    ]
+}
 ];
 
 const features = [

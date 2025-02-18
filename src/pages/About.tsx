@@ -2,10 +2,10 @@
 import { Shield, Users, Leaf, Award } from 'lucide-react';
 
 const stats = [
-  { label: "Années d'expérience", value: '25+' },
-  { label: 'Projets réalisés', value: '1000+' },
+  { label: "Années d'expérience", value: '10+' },
+  { label: 'Projets réalisés', value: '100+' },
   { label: 'Clients satisfaits', value: '500+' },
-  { label: 'Employés', value: '100+' },
+  { label: 'Employés', value: '20+' },
 ];
 
 const values = [
@@ -49,7 +49,7 @@ const About = () => {
             À Propos de Nous
           </h1>
           <p className="max-w-3xl mx-auto mt-6 text-xl text-gray-300">
-            Depuis plus de 25 ans, nous sommes leaders dans l'industrie des matériaux de construction,
+            Depuis plus de 10 ans, nous sommes leaders dans l'industrie des matériaux de construction,
             fournissant des produits de qualité supérieure et un service exceptionnel.
           </p>
         </div>
@@ -104,7 +104,7 @@ const About = () => {
                 Notre Histoire
               </h2>
               <p className="mt-6 text-lg text-gray-500">
-                Fondée en 1998, notre entreprise a commencé comme une petite carrière locale.
+                Fondée en 2015, notre entreprise a commencé comme une petite carrière locale.
                 Au fil des années, nous avons grandi pour devenir l'un des principaux fournisseurs
                 de matériaux de construction de la région, tout en maintenant notre engagement
                 envers la qualité et le service client.

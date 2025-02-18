@@ -39,7 +39,7 @@ const ContactCTA = () => {
                   <dt><span className="sr-only">Email</span></dt>
                   <dd className="flex text-base text-amber-50">
                     <Mail className="flex-shrink-0 w-6 h-6 text-amber-200" aria-hidden="true" />
-                    <span className="ml-3">billytegetsop@gmail.com</span>
+                    <span className="ml-3">billyteguetsop@gmail.com</span>
                   </dd>
                   <dt><span className="sr-only">Adresse</span></dt>
                   <dd className="flex text-base text-amber-50">
