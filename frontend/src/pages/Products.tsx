@@ -20,7 +20,7 @@ const products = [
   },
   {
     id: 'sable-fin',
-    name: 'Sable Fin',
+    name: 'Sables',
     description: 'Sable de qualité supérieure pour diverses utilisations en construction',
     specifications: 'Granulométrie: 0-4mm, Propreté: 95%',
     applications: 'Mortier, Béton, Enduits',
